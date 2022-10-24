@@ -4,6 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+-include device/asus/sm8150-common/BoardConfigCommon.mk
+
 DEVICE_PATH := device/asus/I001D
 
 # Assertions
