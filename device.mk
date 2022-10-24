@@ -8,6 +8,10 @@
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.1-service.I001D
+
 # Init
 PRODUCT_PACKAGES += \
     fstab.qcom
