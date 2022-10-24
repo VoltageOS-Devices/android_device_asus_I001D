@@ -7,7 +7,7 @@
 DEVICE_PATH := device/asus/I001D
 
 # Assertions
-TARGET_OTA_ASSERT_DEVICE := I001D
+TARGET_OTA_ASSERT_DEVICE := WW_I001D,I001D
 
 # Inherit the proprietary files
 include vendor/asus/I001D/BoardConfigVendor.mk
