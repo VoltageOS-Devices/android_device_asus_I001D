@@ -8,6 +8,10 @@
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Init
+PRODUCT_PACKAGES += \
+    fstab.qcom
+
 # Inherit from the sm8150-common
 $(call inherit-product, device/asus/sm8150-common/msmnile.mk)
 
