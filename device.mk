@@ -10,7 +10,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.I001D
+    android.hardware.biometrics.fingerprint@2.3-service.I001D
 
 # Init
 PRODUCT_PACKAGES += \
