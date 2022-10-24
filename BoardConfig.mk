@@ -11,5 +11,9 @@ DEVICE_PATH := device/asus/I001D
 # Assertions
 TARGET_OTA_ASSERT_DEVICE := WW_I001D,I001D
 
+# Kernel
+TARGET_KERNEL_CONFIG := vendor/I001D_defconfig
+TARGET_KERNEL_SOURCE := kernel/asus/I001D
+
 # Inherit the proprietary files
 include vendor/asus/I001D/BoardConfigVendor.mk
