@@ -35,7 +35,8 @@ PRODUCT_COPY_FILES += \
 # RRO Overlays
 PRODUCT_PACKAGES += \
     FrameworksResOverlay \
-    SettingsRes
+    SettingsRes \
+    SystemUIRog2
 
 # Vibrator
 PRODUCT_PACKAGES += \
