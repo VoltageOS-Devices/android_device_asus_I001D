@@ -32,6 +32,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/keychars/goodix_ts.kcm:$(TARGET_COPY_OUT_SYSTEM)/usr/keychars/goodix_ts.kcm \
     $(LOCAL_PATH)/configs/keylayout/goodix_ts.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/goodix_ts.kl
 
+# RRO Overlays
+PRODUCT_PACKAGES += \
+    FrameworksResOverlay \
+    SettingsRes
+
 # Vibrator
 PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.2-service.I001D
