@@ -39,6 +39,9 @@ PRODUCT_PACKAGES += \
     SystemUIRog2 \
     SettingsProviderRog2
 
+# UDFPS animations
+EXTRA_UDFPS_ANIMATIONS := true
+
 # Vibrator
 PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.2-service.I001D
