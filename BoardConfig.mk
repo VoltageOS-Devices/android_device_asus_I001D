@@ -24,5 +24,8 @@ BOARD_VENDORIMAGE_PARTITION_SIZE := 1073741824
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/init/etc/fstab.qcom
 
+# Security patch level
+VENDOR_SECURITY_PATCH := 2022-01-01
+
 # Inherit the proprietary files
 include vendor/asus/I001D/BoardConfigVendor.mk
