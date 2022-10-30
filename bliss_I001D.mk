@@ -14,6 +14,9 @@ $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 # Inherit from I001D device
 $(call inherit-product, device/asus/I001D/device.mk)
 
+# Bootanimation
+TARGET_BOOT_ANIMATION_RES := 1080
+
 PRODUCT_DEVICE := I001D
 PRODUCT_NAME := bliss_I001D
 PRODUCT_BRAND := asus
