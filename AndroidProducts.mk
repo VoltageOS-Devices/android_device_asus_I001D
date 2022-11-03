@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bliss_I001D.mk
+    $(LOCAL_DIR)/voltage_I001D.mk
 
 COMMON_LUNCH_CHOICES := \
-    bliss_I001D-user \
-    bliss_I001D-userdebug \
-    bliss_I001D-eng
+    voltage_I001D-user \
+    voltage_I001D-userdebug \
+    voltage_I001D-eng
