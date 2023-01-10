@@ -14,6 +14,9 @@ $(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 # Inherit from I001D device
 $(call inherit-product, device/asus/I001D/device.mk)
 
+# Offcial-ify
+VOLTAGE_BUILD_TYPE := UNOFFICIAL
+
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1920
 
